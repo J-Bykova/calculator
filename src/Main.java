@@ -3,6 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        calculator.start();
+        Cli cli = new Cli(calculator);
+        cli.start();
+
     }
 }
